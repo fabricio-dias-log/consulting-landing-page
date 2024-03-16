@@ -76,6 +76,22 @@ main{
   gap: 50px;
 }
 
+.improve-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 70px;
+
+  h1 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: $primary-text;
+    text-align: center;
+  }
+}
+
 
 @media (min-width: 1080px) {
   .main-section{
