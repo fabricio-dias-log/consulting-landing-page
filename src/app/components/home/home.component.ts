@@ -4,6 +4,7 @@ import {NgOptimizedImage} from "@angular/common";
 import {BtnPrimaryComponent} from "../btn-primary/btn-primary.component";
 import {NewsletterFormComponent} from "../newsletter-form/newsletter-form.component";
 import {SkillBlockComponent} from "../skill-block/skill-block.component";
+import {FooterComponent} from "../footer/footer.component";
 
 @Component({
   selector: 'app-home',
@@ -13,7 +14,8 @@ import {SkillBlockComponent} from "../skill-block/skill-block.component";
     NgOptimizedImage,
     BtnPrimaryComponent,
     NewsletterFormComponent,
-    SkillBlockComponent
+    SkillBlockComponent,
+    FooterComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
