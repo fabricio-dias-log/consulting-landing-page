@@ -13,6 +13,8 @@ main{
   flex-direction: column;
   font-family: "Roboto", sans-serif;
 
+  height: 80vh;
+
   span{
     font-size: 20px;
     font-weight: 700;
@@ -66,12 +68,23 @@ main{
   align-items: center;
 }
 
+.skills-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
 
 @media (min-width: 1080px) {
   .main-section{
     flex-direction: row;
   }
   .benefit-section {
+    flex-direction: row;
+  }
+  .skills-section{
     flex-direction: row;
   }
 }
